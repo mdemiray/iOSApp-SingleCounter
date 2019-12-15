@@ -1,0 +1,1156 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		02DA0B7DDADC2A3860AFFE5052FEC99F /* DynamicButton-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EB5654250DF79C6A17528CDA11149593 /* DynamicButton-dummy.m */; };
+		085001B0C4983085045E8DCD71FFCE6C /* DynamicButtonStyleArrowDown.swift in Sources */ = {isa = PBXBuildFile; fileRef = 269F0B75D33DC02B84353239A12BE25E /* DynamicButtonStyleArrowDown.swift */; };
+		0A472E63CF2A259EDDC473BE03174CBD /* DynamicButtonStyleVerticalLine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3726E0C05D17D7D27DF1D3D635BB1845 /* DynamicButtonStyleVerticalLine.swift */; };
+		1469C8F5CBE1840B72789D3C0E217F1C /* DynamicButtonStyleRewind.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A1D3FA2F3776E48539B55BAEFFB2020 /* DynamicButtonStyleRewind.swift */; };
+		1C403B5EB32D705543C7CCDEE4B4EC59 /* DynamicButtonStyleDownload.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A9D0C030AE1973A7638036D13F6A68C /* DynamicButtonStyleDownload.swift */; };
+		1E8042F4596CC7206AA529B8DC271CD0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EC994CDC2D681BA26389F78A7E4B325 /* UIKit.framework */; };
+		211A961DA67897C6251763EAEC99BDDC /* Pods-Counter-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8494E9F4BF1BA489146D0817019D8371 /* Pods-Counter-dummy.m */; };
+		276F47CC7EC67090E110DBDE7156AA72 /* DynamicButtonStyleCaretUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64619BEAC5668055F77F99AC38F0EFA6 /* DynamicButtonStyleCaretUp.swift */; };
+		2C02D79E7FE98A740F29EF7EF27A856C /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FA7D1A6480090A43A96D3671D7EBBE4 /* UIColorExtension.swift */; };
+		2F632A4D1ADD5136B02A32C056154E95 /* DynamicButtonStylePause.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50252CFB58F80CD99F5B975B228AF060 /* DynamicButtonStylePause.swift */; };
+		3159D7CAFD56B809F40CA3330DA10889 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */; };
+		3C23CEF4673BC25D4182C31836C7779B /* DynamicButtonStyleStop.swift in Sources */ = {isa = PBXBuildFile; fileRef = 445C1582728AF1737B8A2CE347AE4076 /* DynamicButtonStyleStop.swift */; };
+		4313B742D8BF3FBF8E51AA05295534C4 /* DynamicButtonStyleHamburger.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBD07610922B07C7BE029B8E5D99A26E /* DynamicButtonStyleHamburger.swift */; };
+		4AAA32AE79331482048A2BF5164E237D /* DynamicButtonStyleCaretRight.swift in Sources */ = {isa = PBXBuildFile; fileRef = 938763E312AB9D9BC90A588C8717CB4A /* DynamicButtonStyleCaretRight.swift */; };
+		541C5362289CC44D4F067D097F231250 /* GTMDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = C4218C1E0121BB1E36491B37922C1350 /* GTMDefines.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		55D7211B3D0675C4D8F84FB3FD5247AE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */; };
+		64929E4ED76C530B88A10E1560724B4E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EC994CDC2D681BA26389F78A7E4B325 /* UIKit.framework */; };
+		68161EC57E6896E64482BCEB85E674EE /* UIColor_Hex_Swift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 286948481691354992D92E2F95D4F49F /* UIColor_Hex_Swift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6F16EA77E2BECC0DF9C36696191405EA /* DynamicButtonStyleClose.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CFF58AECCF1E584B1AACEE7EDEA7F7E /* DynamicButtonStyleClose.swift */; };
+		7280A91C6C7508B6D82C755F40772C17 /* DynamicButtonStyleArrowLeft.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A0639FABE3CE484429589BDBB03E99F /* DynamicButtonStyleArrowLeft.swift */; };
+		754CF3AD6F3C6185463368E816ABE35E /* HEXColor.h in Headers */ = {isa = PBXBuildFile; fileRef = 9272D0FE15749EAE725FB64AF21601C9 /* HEXColor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7F44547ABB802AE2009FA8F93F3B16F3 /* Pods-Counter-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D51A68113C6601531FF1FB6C62107A4E /* Pods-Counter-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		81E4B6988FF26F9249B79C6C8CC667B4 /* GoogleToolboxForMac-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AAB6BAC34C09FE114A9F8E718241CBDA /* GoogleToolboxForMac-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		85DB37167784FCC49672C51155C5A321 /* DynamicButtonStyleCirclePlus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 779CDE4BB57CA317D41345D26000E5AD /* DynamicButtonStyleCirclePlus.swift */; };
+		8A2B52FCC4F5C813B70A94BFAE7D24D5 /* DynamicButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4C971BE5186EF0F781E709E213620AA /* DynamicButton.swift */; };
+		8BDA7C4F0B42C3635EB49DB292AD7515 /* DynamicButtonStyleHorizontalMoreOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50DC4C6A6007FD00209F98F458C69CBD /* DynamicButtonStyleHorizontalMoreOptions.swift */; };
+		954D31D1B0BDD54EBEC42CB2A6AD3488 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */; };
+		9588AA025059E33574CAC925D7594813 /* DynamicButtonStyleReload.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D3F83C071AB31125916E8400F36BE1 /* DynamicButtonStyleReload.swift */; };
+		95D78044963340B7CE31E82F96DD9C99 /* DynamicButtonStyleCaretDown.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F5316A3E3ADEE6EEBE2DEC89FD50835 /* DynamicButtonStyleCaretDown.swift */; };
+		999DD8BEF7680C24E947FC3DA9D83B53 /* DynamicButtonStylePlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = C397F64F56617A3CBDF39F4F834FD4B4 /* DynamicButtonStylePlay.swift */; };
+		9A72870177D8CA7841AF6F9BB8C54E5F /* DynamicButtonStyleNone.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B0E07457EF0B3AF9EBE3FE75FA96FFB /* DynamicButtonStyleNone.swift */; };
+		9AC0FAB323E6EFA9E4F1C9F4E9A07A28 /* PathHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2B207698E29D7D217B42C713283C7A7 /* PathHelper.swift */; };
+		9B46F6A57B8E17B8B07E1944C4D01946 /* DynamicButtonStylePlus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2861C067BFFE3BAC62504C2769DC2045 /* DynamicButtonStylePlus.swift */; };
+		AD102D0B847AC67C973F7A8D59B82DE0 /* DynamicButtonStyleFastForward.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32D69480EB51B740E2BED50CA2FA453C /* DynamicButtonStyleFastForward.swift */; };
+		B51FEC4EBB8A679184DCA38ED5FD2301 /* DynamicButtonStyleCaretLeft.swift in Sources */ = {isa = PBXBuildFile; fileRef = 165AE001625FC86D7E716116987C4761 /* DynamicButtonStyleCaretLeft.swift */; };
+		BC90D58697892020E2F2F2D69DB9761E /* DynamicButtonStyleArrowUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 210684EA2940E5B0C48DEBC0B78743FD /* DynamicButtonStyleArrowUp.swift */; };
+		C1F86D58603A88EF0D11BE51148BBE96 /* DynamicButtonStyleVerticalMoreOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA04684EDB5750267EE7EB265A10EF9B /* DynamicButtonStyleVerticalMoreOptions.swift */; };
+		C78A65154E32610D313207E258256D15 /* DynamicButtonStyleCircleClose.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4835C1D435D29356D7A88F1F9F803EFC /* DynamicButtonStyleCircleClose.swift */; };
+		D8D6C0DDA65FC12591C67851F7585F95 /* DynamicButtonStyleCheckMark.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02BAF282E0DD3ABA59E098412A3B12E1 /* DynamicButtonStyleCheckMark.swift */; };
+		DBFECCB0BBE3F11CC41A3C1A8C4879D3 /* GTMNSData+zlib.h in Headers */ = {isa = PBXBuildFile; fileRef = 51313BFFDACB6F632826E725966AD246 /* GTMNSData+zlib.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DE5A68220135A9592056B55DF474E2DC /* DynamicButtonStyleHorizontalLine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C72D66962506536007AFFCF6358045F /* DynamicButtonStyleHorizontalLine.swift */; };
+		E15257DCFDDD15C272CF5CE9A7EB99CE /* UIColor_Hex_Swift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 19A8E56203134EAEDC0F75FB95EB2144 /* UIColor_Hex_Swift-dummy.m */; };
+		E51676DF4BB97DFBBFF5E685BA131B9B /* DynamicButtonStyleDot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57C8BAEF8ADC1E3BFD27AFD29DDEE66C /* DynamicButtonStyleDot.swift */; };
+		E9EF40D4204A4884FE38020080FF2D51 /* DynamicButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07A3E477C1022AB7B224951F8AAE37BE /* DynamicButtonStyle.swift */; };
+		F3726F74C43DB3BE4A51AD3F480D29DC /* DynamicButtonStyleArrowRight.swift in Sources */ = {isa = PBXBuildFile; fileRef = 793E4E641CD2B708F4FE6177214F5868 /* DynamicButtonStyleArrowRight.swift */; };
+		F7D889906DECB078EAAECB9D4A320E9C /* GTMNSData+zlib.m in Sources */ = {isa = PBXBuildFile; fileRef = CC714B0F9E1110819B3D2ACC11A6F1DC /* GTMNSData+zlib.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		F837F08BCB91E0ABA7D24E08FC6C8B61 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */; };
+		FAC3F3CAABA60EF76069431C5BB5032A /* GoogleToolboxForMac-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7ADC3085FE12739538B2038CFD57CC51 /* GoogleToolboxForMac-dummy.m */; };
+		FD9DA3471F533E8125BE9DF93E9225D2 /* DynamicButton-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E2A8DB0484C6DD5032B95E25284EC33D /* DynamicButton-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		13B596ADAE8BEA88C61E2A829E3D7C08 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AAE24ACA00B7B35A5EB9168B684E5317;
+			remoteInfo = DynamicButton;
+		};
+		5CBB3BD990121C55F802BABDEB09B594 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 00103D6C821BE85971C563025527BA5D;
+			remoteInfo = GoogleToolboxForMac;
+		};
+		D67C621323830163085235B614A8587D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E44E2ABDDC17ABE9858B6DAE30057257;
+			remoteInfo = UIColor_Hex_Swift;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		02BAF282E0DD3ABA59E098412A3B12E1 /* DynamicButtonStyleCheckMark.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DynamicButtonStyleCheckMark.swift; path = Sources/DynamicButtonStyles/DynamicButtonStyleCheckMark.swift; sourceTree = "<group>"; };
+		03C8CA7DC2EF416B04929A1C7EBF01B1 /* GoogleSymbolUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleSymbolUtilities.framework; path = Frameworks/frameworks/GoogleSymbolUtilities.framework; sourceTree = "<group>"; };
+		04D3F83C071AB31125916E8400F36BE1 /* DynamicButtonStyleReload.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DynamicButtonStyleReload.swift; path = Sources/DynamicButtonStyles/DynamicButtonStyleReload.swift; sourceTree = "<group>"; };
+		07A3E477C1022AB7B224951F8AAE37BE /* DynamicButtonStyle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DynamicButtonStyle.swift; path = Sources/DynamicButtonStyle.swift; sourceTree = "<group>"; };
+		0859765889D5C951810216331DE429EA /* UIColor_Hex_Swift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = UIColor_Hex_Swift.modulemap; sourceTree = "<group>"; };
+		0AAF4F4E9E5E32F9D90D2447E423D65F /* DynamicButton.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = DynamicButton.modulemap; sourceTree = "<group>"; };
+		0B015FC8D189FBF830E05462AB8D88E1 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		14C28E9E05E2908B5CC4E5EB0F4F56DE /* GoogleMobileAds.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMobileAds.framework; path = Frameworks/frameworks/GoogleMobileAds.framework; sourceTree = "<group>"; };
+		165AE001625FC86D7E716116987C4761 /* DynamicButtonStyleCaretLeft.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DynamicButtonStyleCaretLeft.swift; path = Sources/DynamicButtonStyles/DynamicButtonStyleCaretLeft.swift; sourceTree = "<group>"; };
+		1901081FACCC2E8AB6478B1932847968 /* Pods-Counter.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-Counter.modulemap"; sourceTree = "<group>"; };
+		19A8E56203134EAEDC0F75FB95EB2144 /* UIColor_Hex_Swift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIColor_Hex_Swift-dummy.m"; sourceTree = "<group>"; };
+		1FFB005C2677B6A78DAF8327EBE7C59C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		210684EA2940E5B0C48DEBC0B78743FD /* DynamicButtonStyleArrowUp.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DynamicButtonStyleArrowUp.swift; path = Sources/DynamicButtonStyles/DynamicButtonStyleArrowUp.swift; sourceTree = "<group>"; };
+		269F0B75D33DC02B84353239A12BE25E /* DynamicButtonStyleArrowDown.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DynamicButtonStyleArrowDown.swift; path = Sources/DynamicButtonStyles/DynamicButtonStyleArrowDown.swift; sourceTree = "<group>"; };
+		2861C067BFFE3BAC62504C2769DC2045 /* DynamicButtonStylePlus.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DynamicButtonStylePlus.swift; path = Sources/DynamicButtonStyles/DynamicButtonStylePlus.swift; sourceTree = "<group>"; };
+		286948481691354992D92E2F95D4F49F /* UIColor_Hex_Swift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIColor_Hex_Swift-umbrella.h"; sourceTree = "<group>"; };
+		287CD9775DAC4ABF6107D5323E384C55 /* GoogleInterchangeUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleInterchangeUtilities.framework; path = Frameworks/frameworks/GoogleInterchangeUtilities.framework; sourceTree = "<group>"; };
+		2A0639FABE3CE484429589BDBB03E99F /* DynamicButtonStyleArrowLeft.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DynamicButtonStyleArrowLeft.swift; path = Sources/DynamicButtonStyles/DynamicButtonStyleArrowLeft.swift; sourceTree = "<group>"; };
+		2A9D0C030AE1973A7638036D13F6A68C /* DynamicButtonStyleDownload.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DynamicButtonStyleDownload.swift; path = Sources/DynamicButtonStyles/DynamicButtonStyleDownload.swift; sourceTree = "<group>"; };
+		32D69480EB51B740E2BED50CA2FA453C /* DynamicButtonStyleFastForward.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DynamicButtonStyleFastForward.swift; path = Sources/DynamicButtonStyles/DynamicButtonStyleFastForward.swift; sourceTree = "<group>"; };
+		36BB4E2DD2C1EB319D24C841DAC613E9 /* Pods-Counter-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Counter-acknowledgements.plist"; sourceTree = "<group>"; };
+		3726E0C05D17D7D27DF1D3D635BB1845 /* DynamicButtonStyleVerticalLine.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DynamicButtonStyleVerticalLine.swift; path = Sources/DynamicButtonStyles/DynamicButtonStyleVerticalLine.swift; sourceTree = "<group>"; };
+		3C72D66962506536007AFFCF6358045F /* DynamicButtonStyleHorizontalLine.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DynamicButtonStyleHorizontalLine.swift; path = Sources/DynamicButtonStyles/DynamicButtonStyleHorizontalLine.swift; sourceTree = "<group>"; };
+		445C1582728AF1737B8A2CE347AE4076 /* DynamicButtonStyleStop.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DynamicButtonStyleStop.swift; path = Sources/DynamicButtonStyles/DynamicButtonStyleStop.swift; sourceTree = "<group>"; };
+		4835C1D435D29356D7A88F1F9F803EFC /* DynamicButtonStyleCircleClose.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DynamicButtonStyleCircleClose.swift; path = Sources/DynamicButtonStyles/DynamicButtonStyleCircleClose.swift; sourceTree = "<group>"; };
+		4FFE38B8BE64C817F95953906F377B00 /* FirebaseAnalytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseAnalytics.framework; path = Frameworks/frameworks/FirebaseAnalytics.framework; sourceTree = "<group>"; };
+		50252CFB58F80CD99F5B975B228AF060 /* DynamicButtonStylePause.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DynamicButtonStylePause.swift; path = Sources/DynamicButtonStyles/DynamicButtonStylePause.swift; sourceTree = "<group>"; };
+		50D61DD993B2F69800A5936FE88519E8 /* GoogleToolboxForMac.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = GoogleToolboxForMac.modulemap; sourceTree = "<group>"; };
+		50DC4C6A6007FD00209F98F458C69CBD /* DynamicButtonStyleHorizontalMoreOptions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DynamicButtonStyleHorizontalMoreOptions.swift; path = Sources/DynamicButtonStyles/DynamicButtonStyleHorizontalMoreOptions.swift; sourceTree = "<group>"; };
+		51313BFFDACB6F632826E725966AD246 /* GTMNSData+zlib.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "GTMNSData+zlib.h"; path = "Foundation/GTMNSData+zlib.h"; sourceTree = "<group>"; };
+		57C8BAEF8ADC1E3BFD27AFD29DDEE66C /* DynamicButtonStyleDot.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DynamicButtonStyleDot.swift; path = Sources/DynamicButtonStyles/DynamicButtonStyleDot.swift; sourceTree = "<group>"; };
+		610C9C95F5CBB97CBC263F90DFD4357F /* UIColor_Hex_Swift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = UIColor_Hex_Swift.framework; path = UIColor_Hex_Swift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		64604075D9CBAA6461036894E8CF1611 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		64619BEAC5668055F77F99AC38F0EFA6 /* DynamicButtonStyleCaretUp.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DynamicButtonStyleCaretUp.swift; path = Sources/DynamicButtonStyles/DynamicButtonStyleCaretUp.swift; sourceTree = "<group>"; };
+		669784DA153B4300FA1D0383BE27F3B3 /* DynamicButton.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DynamicButton.xcconfig; sourceTree = "<group>"; };
+		779CDE4BB57CA317D41345D26000E5AD /* DynamicButtonStyleCirclePlus.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DynamicButtonStyleCirclePlus.swift; path = Sources/DynamicButtonStyles/DynamicButtonStyleCirclePlus.swift; sourceTree = "<group>"; };
+		793E4E641CD2B708F4FE6177214F5868 /* DynamicButtonStyleArrowRight.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DynamicButtonStyleArrowRight.swift; path = Sources/DynamicButtonStyles/DynamicButtonStyleArrowRight.swift; sourceTree = "<group>"; };
+		7A8B26102B44D0FCE5763117063870E4 /* Pods-Counter.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Counter.release.xcconfig"; sourceTree = "<group>"; };
+		7ADC3085FE12739538B2038CFD57CC51 /* GoogleToolboxForMac-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GoogleToolboxForMac-dummy.m"; sourceTree = "<group>"; };
+		7EC994CDC2D681BA26389F78A7E4B325 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		8494E9F4BF1BA489146D0817019D8371 /* Pods-Counter-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Counter-dummy.m"; sourceTree = "<group>"; };
+		85FAFD98FEA7A928E9807503EB6A8C14 /* Pods-Counter-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Counter-acknowledgements.markdown"; sourceTree = "<group>"; };
+		8A1D3FA2F3776E48539B55BAEFFB2020 /* DynamicButtonStyleRewind.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DynamicButtonStyleRewind.swift; path = Sources/DynamicButtonStyles/DynamicButtonStyleRewind.swift; sourceTree = "<group>"; };
+		8B0E07457EF0B3AF9EBE3FE75FA96FFB /* DynamicButtonStyleNone.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DynamicButtonStyleNone.swift; path = Sources/DynamicButtonStyles/DynamicButtonStyleNone.swift; sourceTree = "<group>"; };
+		8F029D12C38B7583707E4F5EECDB0A8E /* Pods-Counter-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Counter-resources.sh"; sourceTree = "<group>"; };
+		9272D0FE15749EAE725FB64AF21601C9 /* HEXColor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HEXColor.h; path = HEXColor/HEXColor.h; sourceTree = "<group>"; };
+		938763E312AB9D9BC90A588C8717CB4A /* DynamicButtonStyleCaretRight.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DynamicButtonStyleCaretRight.swift; path = Sources/DynamicButtonStyles/DynamicButtonStyleCaretRight.swift; sourceTree = "<group>"; };
+		938CEC03001BC049F6FE255A6A12E50D /* DynamicButton-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DynamicButton-prefix.pch"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9CFF58AECCF1E584B1AACEE7EDEA7F7E /* DynamicButtonStyleClose.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DynamicButtonStyleClose.swift; path = Sources/DynamicButtonStyles/DynamicButtonStyleClose.swift; sourceTree = "<group>"; };
+		9DA5BA59B87605C46B48C0CA96206B58 /* FirebaseInstanceID.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseInstanceID.framework; path = Frameworks/frameworks/FirebaseInstanceID.framework; sourceTree = "<group>"; };
+		9F5316A3E3ADEE6EEBE2DEC89FD50835 /* DynamicButtonStyleCaretDown.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DynamicButtonStyleCaretDown.swift; path = Sources/DynamicButtonStyles/DynamicButtonStyleCaretDown.swift; sourceTree = "<group>"; };
+		9FA7D1A6480090A43A96D3671D7EBBE4 /* UIColorExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIColorExtension.swift; path = HEXColor/UIColorExtension.swift; sourceTree = "<group>"; };
+		A064EADDB31AB52C5DCE5CA7DF210B66 /* Pods-Counter-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Counter-frameworks.sh"; sourceTree = "<group>"; };
+		AAB6BAC34C09FE114A9F8E718241CBDA /* GoogleToolboxForMac-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GoogleToolboxForMac-umbrella.h"; sourceTree = "<group>"; };
+		AF2D50FFDBAEF2AD4D01BDD011D62347 /* Pods-Counter.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Counter.debug.xcconfig"; sourceTree = "<group>"; };
+		C397F64F56617A3CBDF39F4F834FD4B4 /* DynamicButtonStylePlay.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DynamicButtonStylePlay.swift; path = Sources/DynamicButtonStyles/DynamicButtonStylePlay.swift; sourceTree = "<group>"; };
+		C4218C1E0121BB1E36491B37922C1350 /* GTMDefines.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GTMDefines.h; sourceTree = "<group>"; };
+		C425C476D7D24935BE4DC1B33DEC7F15 /* FirebaseCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseCore.framework; path = Frameworks/FirebaseCore.framework; sourceTree = "<group>"; };
+		C45A598A7EBF7419821C67FD0718E530 /* FIRInstanceID.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FIRInstanceID.h; path = Sources/FIRInstanceID.h; sourceTree = "<group>"; };
+		C4C971BE5186EF0F781E709E213620AA /* DynamicButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DynamicButton.swift; path = Sources/DynamicButton.swift; sourceTree = "<group>"; };
+		CC714B0F9E1110819B3D2ACC11A6F1DC /* GTMNSData+zlib.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "GTMNSData+zlib.m"; path = "Foundation/GTMNSData+zlib.m"; sourceTree = "<group>"; };
+		D1426171DB785E4702FB6852502430B8 /* GoogleToolboxForMac.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = GoogleToolboxForMac.framework; path = GoogleToolboxForMac.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2B207698E29D7D217B42C713283C7A7 /* PathHelper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PathHelper.swift; path = Sources/PathHelper.swift; sourceTree = "<group>"; };
+		D51A68113C6601531FF1FB6C62107A4E /* Pods-Counter-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Counter-umbrella.h"; sourceTree = "<group>"; };
+		D7593901693DC46055EB963FDBC4F534 /* GoogleToolboxForMac.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GoogleToolboxForMac.xcconfig; sourceTree = "<group>"; };
+		DA18F61C137720924E49DA05255DEE5B /* GoogleToolboxForMac-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GoogleToolboxForMac-prefix.pch"; sourceTree = "<group>"; };
+		DBD07610922B07C7BE029B8E5D99A26E /* DynamicButtonStyleHamburger.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DynamicButtonStyleHamburger.swift; path = Sources/DynamicButtonStyles/DynamicButtonStyleHamburger.swift; sourceTree = "<group>"; };
+		E25C9F56C44B9D177B6A0A3538675773 /* DynamicButton.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = DynamicButton.framework; path = DynamicButton.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E2A8DB0484C6DD5032B95E25284EC33D /* DynamicButton-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DynamicButton-umbrella.h"; sourceTree = "<group>"; };
+		E3DA3451507ADFA45B05F0363BEDC1E1 /* UIColor_Hex_Swift.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = UIColor_Hex_Swift.xcconfig; sourceTree = "<group>"; };
+		E94F87BE0267E458CC4FF538DD402BEA /* Pods_Counter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Counter.framework; path = "Pods-Counter.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB5654250DF79C6A17528CDA11149593 /* DynamicButton-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DynamicButton-dummy.m"; sourceTree = "<group>"; };
+		EF55C894086EEB02AEAE36CCB456E495 /* UIColor_Hex_Swift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIColor_Hex_Swift-prefix.pch"; sourceTree = "<group>"; };
+		F80E2EBECFE769F09DE61CA09ED8F82C /* Firebase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Firebase.h; path = Core/Sources/Firebase.h; sourceTree = "<group>"; };
+		FA04684EDB5750267EE7EB265A10EF9B /* DynamicButtonStyleVerticalMoreOptions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DynamicButtonStyleVerticalMoreOptions.swift; path = Sources/DynamicButtonStyles/DynamicButtonStyleVerticalMoreOptions.swift; sourceTree = "<group>"; };
+		FCABB5E693BD8B91614385F8E1E2BF2E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5594EEB9C90FBBFF62D7CE5B9A397331 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F837F08BCB91E0ABA7D24E08FC6C8B61 /* Foundation.framework in Frameworks */,
+				1E8042F4596CC7206AA529B8DC271CD0 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		833C8ED061F3E9F8E6A65DC72D5E2D2E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				954D31D1B0BDD54EBEC42CB2A6AD3488 /* Foundation.framework in Frameworks */,
+				64929E4ED76C530B88A10E1560724B4E /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA9E83894DC41E2649662BC2AA151518 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55D7211B3D0675C4D8F84FB3FD5247AE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9BC43EEAF05BCB201B3D28C244AA7E1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3159D7CAFD56B809F40CA3330DA10889 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0EC37D70716DB961CBBA5F6424C562EF /* FirebaseInstanceID */ = {
+			isa = PBXGroup;
+			children = (
+				C45A598A7EBF7419821C67FD0718E530 /* FIRInstanceID.h */,
+				C56B6B78E349EBD7547E370D8F6119F4 /* Frameworks */,
+			);
+			name = FirebaseInstanceID;
+			path = FirebaseInstanceID;
+			sourceTree = "<group>";
+		};
+		27C8BF01530C4B7D04210BD0CD2AA8EB /* Google-Mobile-Ads-SDK */ = {
+			isa = PBXGroup;
+			children = (
+				B941690D09FC8145E6EB6F2077A254CF /* Frameworks */,
+			);
+			name = "Google-Mobile-Ads-SDK";
+			path = "Google-Mobile-Ads-SDK";
+			sourceTree = "<group>";
+		};
+		2DFDC3E9921C760E5E547F5B5ABD3C6A /* GoogleInterchangeUtilities */ = {
+			isa = PBXGroup;
+			children = (
+				851A2F1C5A6C0C4337D278D95EBD3D38 /* Frameworks */,
+			);
+			name = GoogleInterchangeUtilities;
+			path = GoogleInterchangeUtilities;
+			sourceTree = "<group>";
+		};
+		3913A558DD089A34592679F2C197051A /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				F80E2EBECFE769F09DE61CA09ED8F82C /* Firebase.h */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E6EE98446B568159EE277B68FD442AF0 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5E01C4A13E94DF0C542F2AA3BEE174A1 /* GoogleToolboxForMac */ = {
+			isa = PBXGroup;
+			children = (
+				9F700E7D3619774670F254500864E924 /* Defines */,
+				B03ED18515CBE606DC084F986A2A8B82 /* NSData+zlib */,
+				D0C280A89E21AFF5AE9B51526224EE39 /* Support Files */,
+			);
+			name = GoogleToolboxForMac;
+			path = GoogleToolboxForMac;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
+				B2CD48A605CD26786CE47D93C2AE88D6 /* Pods */,
+				CD24241CF37C1F91906945E6ADB4859A /* Products */,
+				FDDFBD891A05510843FB95A6B37E301B /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		7F49606176724AF49C6C5E4111DEFC00 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4FFE38B8BE64C817F95953906F377B00 /* FirebaseAnalytics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		851A2F1C5A6C0C4337D278D95EBD3D38 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				287CD9775DAC4ABF6107D5323E384C55 /* GoogleInterchangeUtilities.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		85E31D61A5F34904BCBEAC484A65ED8E /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				0B015FC8D189FBF830E05462AB8D88E1 /* Info.plist */,
+				0859765889D5C951810216331DE429EA /* UIColor_Hex_Swift.modulemap */,
+				E3DA3451507ADFA45B05F0363BEDC1E1 /* UIColor_Hex_Swift.xcconfig */,
+				19A8E56203134EAEDC0F75FB95EB2144 /* UIColor_Hex_Swift-dummy.m */,
+				EF55C894086EEB02AEAE36CCB456E495 /* UIColor_Hex_Swift-prefix.pch */,
+				286948481691354992D92E2F95D4F49F /* UIColor_Hex_Swift-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/UIColor_Hex_Swift";
+			sourceTree = "<group>";
+		};
+		8F18485C05D5327C850040756FD6D4F3 /* UIColor_Hex_Swift */ = {
+			isa = PBXGroup;
+			children = (
+				9272D0FE15749EAE725FB64AF21601C9 /* HEXColor.h */,
+				9FA7D1A6480090A43A96D3671D7EBBE4 /* UIColorExtension.swift */,
+				85E31D61A5F34904BCBEAC484A65ED8E /* Support Files */,
+			);
+			name = UIColor_Hex_Swift;
+			path = UIColor_Hex_Swift;
+			sourceTree = "<group>";
+		};
+		8FBBCE8AF80990C4808F8AB2CC84DF50 /* GoogleSymbolUtilities */ = {
+			isa = PBXGroup;
+			children = (
+				9322AFDD13EA348A4B7C263FAA2BC78D /* Frameworks */,
+			);
+			name = GoogleSymbolUtilities;
+			path = GoogleSymbolUtilities;
+			sourceTree = "<group>";
+		};
+		9188E78DC6EF9E144367ED647ACEE03A /* FirebaseAnalytics */ = {
+			isa = PBXGroup;
+			children = (
+				7F49606176724AF49C6C5E4111DEFC00 /* Frameworks */,
+			);
+			name = FirebaseAnalytics;
+			path = FirebaseAnalytics;
+			sourceTree = "<group>";
+		};
+		9322AFDD13EA348A4B7C263FAA2BC78D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				03C8CA7DC2EF416B04929A1C7EBF01B1 /* GoogleSymbolUtilities.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9B34488209CC560F9F6777C4E4890175 /* Pods-Counter */ = {
+			isa = PBXGroup;
+			children = (
+				FCABB5E693BD8B91614385F8E1E2BF2E /* Info.plist */,
+				1901081FACCC2E8AB6478B1932847968 /* Pods-Counter.modulemap */,
+				85FAFD98FEA7A928E9807503EB6A8C14 /* Pods-Counter-acknowledgements.markdown */,
+				36BB4E2DD2C1EB319D24C841DAC613E9 /* Pods-Counter-acknowledgements.plist */,
+				8494E9F4BF1BA489146D0817019D8371 /* Pods-Counter-dummy.m */,
+				A064EADDB31AB52C5DCE5CA7DF210B66 /* Pods-Counter-frameworks.sh */,
+				8F029D12C38B7583707E4F5EECDB0A8E /* Pods-Counter-resources.sh */,
+				D51A68113C6601531FF1FB6C62107A4E /* Pods-Counter-umbrella.h */,
+				AF2D50FFDBAEF2AD4D01BDD011D62347 /* Pods-Counter.debug.xcconfig */,
+				7A8B26102B44D0FCE5763117063870E4 /* Pods-Counter.release.xcconfig */,
+			);
+			name = "Pods-Counter";
+			path = "Target Support Files/Pods-Counter";
+			sourceTree = "<group>";
+		};
+		9F700E7D3619774670F254500864E924 /* Defines */ = {
+			isa = PBXGroup;
+			children = (
+				C4218C1E0121BB1E36491B37922C1350 /* GTMDefines.h */,
+			);
+			name = Defines;
+			sourceTree = "<group>";
+		};
+		A261D7A09A9ED39D677ED17580C7B540 /* Firebase */ = {
+			isa = PBXGroup;
+			children = (
+				3913A558DD089A34592679F2C197051A /* Core */,
+			);
+			name = Firebase;
+			path = Firebase;
+			sourceTree = "<group>";
+		};
+		B03ED18515CBE606DC084F986A2A8B82 /* NSData+zlib */ = {
+			isa = PBXGroup;
+			children = (
+				51313BFFDACB6F632826E725966AD246 /* GTMNSData+zlib.h */,
+				CC714B0F9E1110819B3D2ACC11A6F1DC /* GTMNSData+zlib.m */,
+			);
+			name = "NSData+zlib";
+			sourceTree = "<group>";
+		};
+		B2CD48A605CD26786CE47D93C2AE88D6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C17C8BC7BB86833CF85EC1619C319907 /* DynamicButton */,
+				A261D7A09A9ED39D677ED17580C7B540 /* Firebase */,
+				9188E78DC6EF9E144367ED647ACEE03A /* FirebaseAnalytics */,
+				B75CBC2D5AFC6E36C9136E9782F463A0 /* FirebaseCore */,
+				0EC37D70716DB961CBBA5F6424C562EF /* FirebaseInstanceID */,
+				27C8BF01530C4B7D04210BD0CD2AA8EB /* Google-Mobile-Ads-SDK */,
+				2DFDC3E9921C760E5E547F5B5ABD3C6A /* GoogleInterchangeUtilities */,
+				8FBBCE8AF80990C4808F8AB2CC84DF50 /* GoogleSymbolUtilities */,
+				5E01C4A13E94DF0C542F2AA3BEE174A1 /* GoogleToolboxForMac */,
+				8F18485C05D5327C850040756FD6D4F3 /* UIColor_Hex_Swift */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B75CBC2D5AFC6E36C9136E9782F463A0 /* FirebaseCore */ = {
+			isa = PBXGroup;
+			children = (
+				EEF894BBAC15AC6F0EF86D952CC4E413 /* Frameworks */,
+			);
+			name = FirebaseCore;
+			path = FirebaseCore;
+			sourceTree = "<group>";
+		};
+		B941690D09FC8145E6EB6F2077A254CF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				14C28E9E05E2908B5CC4E5EB0F4F56DE /* GoogleMobileAds.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C17C8BC7BB86833CF85EC1619C319907 /* DynamicButton */ = {
+			isa = PBXGroup;
+			children = (
+				C4C971BE5186EF0F781E709E213620AA /* DynamicButton.swift */,
+				07A3E477C1022AB7B224951F8AAE37BE /* DynamicButtonStyle.swift */,
+				269F0B75D33DC02B84353239A12BE25E /* DynamicButtonStyleArrowDown.swift */,
+				2A0639FABE3CE484429589BDBB03E99F /* DynamicButtonStyleArrowLeft.swift */,
+				793E4E641CD2B708F4FE6177214F5868 /* DynamicButtonStyleArrowRight.swift */,
+				210684EA2940E5B0C48DEBC0B78743FD /* DynamicButtonStyleArrowUp.swift */,
+				9F5316A3E3ADEE6EEBE2DEC89FD50835 /* DynamicButtonStyleCaretDown.swift */,
+				165AE001625FC86D7E716116987C4761 /* DynamicButtonStyleCaretLeft.swift */,
+				938763E312AB9D9BC90A588C8717CB4A /* DynamicButtonStyleCaretRight.swift */,
+				64619BEAC5668055F77F99AC38F0EFA6 /* DynamicButtonStyleCaretUp.swift */,
+				02BAF282E0DD3ABA59E098412A3B12E1 /* DynamicButtonStyleCheckMark.swift */,
+				4835C1D435D29356D7A88F1F9F803EFC /* DynamicButtonStyleCircleClose.swift */,
+				779CDE4BB57CA317D41345D26000E5AD /* DynamicButtonStyleCirclePlus.swift */,
+				9CFF58AECCF1E584B1AACEE7EDEA7F7E /* DynamicButtonStyleClose.swift */,
+				57C8BAEF8ADC1E3BFD27AFD29DDEE66C /* DynamicButtonStyleDot.swift */,
+				2A9D0C030AE1973A7638036D13F6A68C /* DynamicButtonStyleDownload.swift */,
+				32D69480EB51B740E2BED50CA2FA453C /* DynamicButtonStyleFastForward.swift */,
+				DBD07610922B07C7BE029B8E5D99A26E /* DynamicButtonStyleHamburger.swift */,
+				3C72D66962506536007AFFCF6358045F /* DynamicButtonStyleHorizontalLine.swift */,
+				50DC4C6A6007FD00209F98F458C69CBD /* DynamicButtonStyleHorizontalMoreOptions.swift */,
+				8B0E07457EF0B3AF9EBE3FE75FA96FFB /* DynamicButtonStyleNone.swift */,
+				50252CFB58F80CD99F5B975B228AF060 /* DynamicButtonStylePause.swift */,
+				C397F64F56617A3CBDF39F4F834FD4B4 /* DynamicButtonStylePlay.swift */,
+				2861C067BFFE3BAC62504C2769DC2045 /* DynamicButtonStylePlus.swift */,
+				04D3F83C071AB31125916E8400F36BE1 /* DynamicButtonStyleReload.swift */,
+				8A1D3FA2F3776E48539B55BAEFFB2020 /* DynamicButtonStyleRewind.swift */,
+				445C1582728AF1737B8A2CE347AE4076 /* DynamicButtonStyleStop.swift */,
+				3726E0C05D17D7D27DF1D3D635BB1845 /* DynamicButtonStyleVerticalLine.swift */,
+				FA04684EDB5750267EE7EB265A10EF9B /* DynamicButtonStyleVerticalMoreOptions.swift */,
+				D2B207698E29D7D217B42C713283C7A7 /* PathHelper.swift */,
+				D0CD7B93BBD5ED3FDE5B7A238F3958D1 /* Support Files */,
+			);
+			name = DynamicButton;
+			path = DynamicButton;
+			sourceTree = "<group>";
+		};
+		C56B6B78E349EBD7547E370D8F6119F4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9DA5BA59B87605C46B48C0CA96206B58 /* FirebaseInstanceID.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CD24241CF37C1F91906945E6ADB4859A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E25C9F56C44B9D177B6A0A3538675773 /* DynamicButton.framework */,
+				D1426171DB785E4702FB6852502430B8 /* GoogleToolboxForMac.framework */,
+				E94F87BE0267E458CC4FF538DD402BEA /* Pods_Counter.framework */,
+				610C9C95F5CBB97CBC263F90DFD4357F /* UIColor_Hex_Swift.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D0C280A89E21AFF5AE9B51526224EE39 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				50D61DD993B2F69800A5936FE88519E8 /* GoogleToolboxForMac.modulemap */,
+				D7593901693DC46055EB963FDBC4F534 /* GoogleToolboxForMac.xcconfig */,
+				7ADC3085FE12739538B2038CFD57CC51 /* GoogleToolboxForMac-dummy.m */,
+				DA18F61C137720924E49DA05255DEE5B /* GoogleToolboxForMac-prefix.pch */,
+				AAB6BAC34C09FE114A9F8E718241CBDA /* GoogleToolboxForMac-umbrella.h */,
+				1FFB005C2677B6A78DAF8327EBE7C59C /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/GoogleToolboxForMac";
+			sourceTree = "<group>";
+		};
+		D0CD7B93BBD5ED3FDE5B7A238F3958D1 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				0AAF4F4E9E5E32F9D90D2447E423D65F /* DynamicButton.modulemap */,
+				669784DA153B4300FA1D0383BE27F3B3 /* DynamicButton.xcconfig */,
+				EB5654250DF79C6A17528CDA11149593 /* DynamicButton-dummy.m */,
+				938CEC03001BC049F6FE255A6A12E50D /* DynamicButton-prefix.pch */,
+				E2A8DB0484C6DD5032B95E25284EC33D /* DynamicButton-umbrella.h */,
+				64604075D9CBAA6461036894E8CF1611 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/DynamicButton";
+			sourceTree = "<group>";
+		};
+		E6EE98446B568159EE277B68FD442AF0 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */,
+				7EC994CDC2D681BA26389F78A7E4B325 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		EEF894BBAC15AC6F0EF86D952CC4E413 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C425C476D7D24935BE4DC1B33DEC7F15 /* FirebaseCore.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FDDFBD891A05510843FB95A6B37E301B /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				9B34488209CC560F9F6777C4E4890175 /* Pods-Counter */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		2ED7D410B80EC570A087443D943BCF60 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD9DA3471F533E8125BE9DF93E9225D2 /* DynamicButton-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5797BB30EEC49063CF60465F0C6E11B7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F44547ABB802AE2009FA8F93F3B16F3 /* Pods-Counter-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9339C560087312CFBFF943DB93FC4B77 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				754CF3AD6F3C6185463368E816ABE35E /* HEXColor.h in Headers */,
+				68161EC57E6896E64482BCEB85E674EE /* UIColor_Hex_Swift-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDA600FDC48ED17BA03DA2D85D4EDA97 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81E4B6988FF26F9249B79C6C8CC667B4 /* GoogleToolboxForMac-umbrella.h in Headers */,
+				541C5362289CC44D4F067D097F231250 /* GTMDefines.h in Headers */,
+				DBFECCB0BBE3F11CC41A3C1A8C4879D3 /* GTMNSData+zlib.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		00103D6C821BE85971C563025527BA5D /* GoogleToolboxForMac */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C43D9CA5106C6CCEF973B7EDF833947B /* Build configuration list for PBXNativeTarget "GoogleToolboxForMac" */;
+			buildPhases = (
+				63D7DA997053F6B5D01DE8CB5817CB51 /* Sources */,
+				F9BC43EEAF05BCB201B3D28C244AA7E1 /* Frameworks */,
+				FDA600FDC48ED17BA03DA2D85D4EDA97 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GoogleToolboxForMac;
+			productName = GoogleToolboxForMac;
+			productReference = D1426171DB785E4702FB6852502430B8 /* GoogleToolboxForMac.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		76E90A3DAF714971D61855D9200DF9E1 /* Pods-Counter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 26AE134669AD253568B36CBCD15061B0 /* Build configuration list for PBXNativeTarget "Pods-Counter" */;
+			buildPhases = (
+				6ACB782D06EF17BFD6A95097BD9E0C26 /* Sources */,
+				DA9E83894DC41E2649662BC2AA151518 /* Frameworks */,
+				5797BB30EEC49063CF60465F0C6E11B7 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				28DFBBEDDA92D400D71EC6230DAA78B2 /* PBXTargetDependency */,
+				00C3F8B4CDF490A6FA530FAE7ADB24A3 /* PBXTargetDependency */,
+				9220D821CA1EA5D5D5E4BF6DDAECE57D /* PBXTargetDependency */,
+			);
+			name = "Pods-Counter";
+			productName = "Pods-Counter";
+			productReference = E94F87BE0267E458CC4FF538DD402BEA /* Pods_Counter.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		AAE24ACA00B7B35A5EB9168B684E5317 /* DynamicButton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B526A559BBDEC9021BA0144D618FDDF4 /* Build configuration list for PBXNativeTarget "DynamicButton" */;
+			buildPhases = (
+				C0413766E060813A26738D9D6D430DC9 /* Sources */,
+				5594EEB9C90FBBFF62D7CE5B9A397331 /* Frameworks */,
+				2ED7D410B80EC570A087443D943BCF60 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DynamicButton;
+			productName = DynamicButton;
+			productReference = E25C9F56C44B9D177B6A0A3538675773 /* DynamicButton.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E44E2ABDDC17ABE9858B6DAE30057257 /* UIColor_Hex_Swift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 159FC0FA8091BF3DAE1451E98D214A69 /* Build configuration list for PBXNativeTarget "UIColor_Hex_Swift" */;
+			buildPhases = (
+				5A33DB6DE87F7FAF64859798920BC437 /* Sources */,
+				833C8ED061F3E9F8E6A65DC72D5E2D2E /* Frameworks */,
+				9339C560087312CFBFF943DB93FC4B77 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UIColor_Hex_Swift;
+			productName = UIColor_Hex_Swift;
+			productReference = 610C9C95F5CBB97CBC263F90DFD4357F /* UIColor_Hex_Swift.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = CD24241CF37C1F91906945E6ADB4859A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AAE24ACA00B7B35A5EB9168B684E5317 /* DynamicButton */,
+				00103D6C821BE85971C563025527BA5D /* GoogleToolboxForMac */,
+				76E90A3DAF714971D61855D9200DF9E1 /* Pods-Counter */,
+				E44E2ABDDC17ABE9858B6DAE30057257 /* UIColor_Hex_Swift */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5A33DB6DE87F7FAF64859798920BC437 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E15257DCFDDD15C272CF5CE9A7EB99CE /* UIColor_Hex_Swift-dummy.m in Sources */,
+				2C02D79E7FE98A740F29EF7EF27A856C /* UIColorExtension.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63D7DA997053F6B5D01DE8CB5817CB51 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAC3F3CAABA60EF76069431C5BB5032A /* GoogleToolboxForMac-dummy.m in Sources */,
+				F7D889906DECB078EAAECB9D4A320E9C /* GTMNSData+zlib.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6ACB782D06EF17BFD6A95097BD9E0C26 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				211A961DA67897C6251763EAEC99BDDC /* Pods-Counter-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0413766E060813A26738D9D6D430DC9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02DA0B7DDADC2A3860AFFE5052FEC99F /* DynamicButton-dummy.m in Sources */,
+				8A2B52FCC4F5C813B70A94BFAE7D24D5 /* DynamicButton.swift in Sources */,
+				E9EF40D4204A4884FE38020080FF2D51 /* DynamicButtonStyle.swift in Sources */,
+				085001B0C4983085045E8DCD71FFCE6C /* DynamicButtonStyleArrowDown.swift in Sources */,
+				7280A91C6C7508B6D82C755F40772C17 /* DynamicButtonStyleArrowLeft.swift in Sources */,
+				F3726F74C43DB3BE4A51AD3F480D29DC /* DynamicButtonStyleArrowRight.swift in Sources */,
+				BC90D58697892020E2F2F2D69DB9761E /* DynamicButtonStyleArrowUp.swift in Sources */,
+				95D78044963340B7CE31E82F96DD9C99 /* DynamicButtonStyleCaretDown.swift in Sources */,
+				B51FEC4EBB8A679184DCA38ED5FD2301 /* DynamicButtonStyleCaretLeft.swift in Sources */,
+				4AAA32AE79331482048A2BF5164E237D /* DynamicButtonStyleCaretRight.swift in Sources */,
+				276F47CC7EC67090E110DBDE7156AA72 /* DynamicButtonStyleCaretUp.swift in Sources */,
+				D8D6C0DDA65FC12591C67851F7585F95 /* DynamicButtonStyleCheckMark.swift in Sources */,
+				C78A65154E32610D313207E258256D15 /* DynamicButtonStyleCircleClose.swift in Sources */,
+				85DB37167784FCC49672C51155C5A321 /* DynamicButtonStyleCirclePlus.swift in Sources */,
+				6F16EA77E2BECC0DF9C36696191405EA /* DynamicButtonStyleClose.swift in Sources */,
+				E51676DF4BB97DFBBFF5E685BA131B9B /* DynamicButtonStyleDot.swift in Sources */,
+				1C403B5EB32D705543C7CCDEE4B4EC59 /* DynamicButtonStyleDownload.swift in Sources */,
+				AD102D0B847AC67C973F7A8D59B82DE0 /* DynamicButtonStyleFastForward.swift in Sources */,
+				4313B742D8BF3FBF8E51AA05295534C4 /* DynamicButtonStyleHamburger.swift in Sources */,
+				DE5A68220135A9592056B55DF474E2DC /* DynamicButtonStyleHorizontalLine.swift in Sources */,
+				8BDA7C4F0B42C3635EB49DB292AD7515 /* DynamicButtonStyleHorizontalMoreOptions.swift in Sources */,
+				9A72870177D8CA7841AF6F9BB8C54E5F /* DynamicButtonStyleNone.swift in Sources */,
+				2F632A4D1ADD5136B02A32C056154E95 /* DynamicButtonStylePause.swift in Sources */,
+				999DD8BEF7680C24E947FC3DA9D83B53 /* DynamicButtonStylePlay.swift in Sources */,
+				9B46F6A57B8E17B8B07E1944C4D01946 /* DynamicButtonStylePlus.swift in Sources */,
+				9588AA025059E33574CAC925D7594813 /* DynamicButtonStyleReload.swift in Sources */,
+				1469C8F5CBE1840B72789D3C0E217F1C /* DynamicButtonStyleRewind.swift in Sources */,
+				3C23CEF4673BC25D4182C31836C7779B /* DynamicButtonStyleStop.swift in Sources */,
+				0A472E63CF2A259EDDC473BE03174CBD /* DynamicButtonStyleVerticalLine.swift in Sources */,
+				C1F86D58603A88EF0D11BE51148BBE96 /* DynamicButtonStyleVerticalMoreOptions.swift in Sources */,
+				9AC0FAB323E6EFA9E4F1C9F4E9A07A28 /* PathHelper.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		00C3F8B4CDF490A6FA530FAE7ADB24A3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GoogleToolboxForMac;
+			target = 00103D6C821BE85971C563025527BA5D /* GoogleToolboxForMac */;
+			targetProxy = 5CBB3BD990121C55F802BABDEB09B594 /* PBXContainerItemProxy */;
+		};
+		28DFBBEDDA92D400D71EC6230DAA78B2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = DynamicButton;
+			target = AAE24ACA00B7B35A5EB9168B684E5317 /* DynamicButton */;
+			targetProxy = 13B596ADAE8BEA88C61E2A829E3D7C08 /* PBXContainerItemProxy */;
+		};
+		9220D821CA1EA5D5D5E4BF6DDAECE57D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = UIColor_Hex_Swift;
+			target = E44E2ABDDC17ABE9858B6DAE30057257 /* UIColor_Hex_Swift */;
+			targetProxy = D67C621323830163085235B614A8587D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0F37413D51D00FC474FCEE938DE555ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E3DA3451507ADFA45B05F0363BEDC1E1 /* UIColor_Hex_Swift.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/UIColor_Hex_Swift/UIColor_Hex_Swift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/UIColor_Hex_Swift/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/UIColor_Hex_Swift/UIColor_Hex_Swift.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = UIColor_Hex_Swift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		11D1A2C24FACE84BC7FA85FBA0D25CCC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AF2D50FFDBAEF2AD4D01BDD011D62347 /* Pods-Counter.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Counter/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Counter/Pods-Counter.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Counter;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		17ECB132A467AAB03513CCB48F072A0D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E3DA3451507ADFA45B05F0363BEDC1E1 /* UIColor_Hex_Swift.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/UIColor_Hex_Swift/UIColor_Hex_Swift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/UIColor_Hex_Swift/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/UIColor_Hex_Swift/UIColor_Hex_Swift.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = UIColor_Hex_Swift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		46ACCD9E685E5C3DB4454BB5BCE7C293 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7A8B26102B44D0FCE5763117063870E4 /* Pods-Counter.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Counter/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Counter/Pods-Counter.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Counter;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		57E1ACF60CD6156EB155D299D0D922E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 669784DA153B4300FA1D0383BE27F3B3 /* DynamicButton.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/DynamicButton/DynamicButton-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DynamicButton/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/DynamicButton/DynamicButton.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = DynamicButton;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		673254EEAF0B5BF4596080C749645884 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CE7E5C384F3B6BF7B43A57F57895EEDA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 669784DA153B4300FA1D0383BE27F3B3 /* DynamicButton.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/DynamicButton/DynamicButton-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DynamicButton/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/DynamicButton/DynamicButton.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = DynamicButton;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D60CD877A708870E2BE96B83BA32F883 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D7593901693DC46055EB963FDBC4F534 /* GoogleToolboxForMac.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/GoogleToolboxForMac/GoogleToolboxForMac-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/GoogleToolboxForMac/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/GoogleToolboxForMac/GoogleToolboxForMac.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = GoogleToolboxForMac;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E4F26E6EB105713A6A7E7E2E283AC2DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		F066921CBDBDB5F45795E50FBC5AC972 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D7593901693DC46055EB963FDBC4F534 /* GoogleToolboxForMac.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/GoogleToolboxForMac/GoogleToolboxForMac-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/GoogleToolboxForMac/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/GoogleToolboxForMac/GoogleToolboxForMac.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = GoogleToolboxForMac;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		159FC0FA8091BF3DAE1451E98D214A69 /* Build configuration list for PBXNativeTarget "UIColor_Hex_Swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17ECB132A467AAB03513CCB48F072A0D /* Debug */,
+				0F37413D51D00FC474FCEE938DE555ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		26AE134669AD253568B36CBCD15061B0 /* Build configuration list for PBXNativeTarget "Pods-Counter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11D1A2C24FACE84BC7FA85FBA0D25CCC /* Debug */,
+				46ACCD9E685E5C3DB4454BB5BCE7C293 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4F26E6EB105713A6A7E7E2E283AC2DF /* Debug */,
+				673254EEAF0B5BF4596080C749645884 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B526A559BBDEC9021BA0144D618FDDF4 /* Build configuration list for PBXNativeTarget "DynamicButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE7E5C384F3B6BF7B43A57F57895EEDA /* Debug */,
+				57E1ACF60CD6156EB155D299D0D922E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C43D9CA5106C6CCEF973B7EDF833947B /* Build configuration list for PBXNativeTarget "GoogleToolboxForMac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D60CD877A708870E2BE96B83BA32F883 /* Debug */,
+				F066921CBDBDB5F45795E50FBC5AC972 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
