@@ -11,7 +11,7 @@
 	<key>REVERSED_CLIENT_ID</key>
 	<string>com.googleusercontent.apps.196430386352-dvnooernu1214sao00mhie0mtt9m2k0g</string>
 	<key>API_KEY</key>
-	<string>AIzaSyCgVwn_kcaIBC_a2k0caYSJNPh0f4AdGjE</string>
+	<string>FooBarDummyKey</string>
 	<key>GCM_SENDER_ID</key>
 	<string>196430386352</string>
 	<key>PLIST_VERSION</key>
@@ -35,6 +35,6 @@
 	<key>GOOGLE_APP_ID</key>
 	<string>1:196430386352:ios:563d0348db7b6668</string>
 	<key>DATABASE_URL</key>
-	<string>https://counter-bfc36.firebaseio.com</string>
+	<string>DummyURL</string>
 </dict>
 </plist>
